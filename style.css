@@ -1,9 +1,9 @@
 nav {
-    background-color: #000000;
+    background-image: linear-gradient(black, white);
     color: white;
     word-spacing: 15px;   
     text-align: bottom;
-}
+    }
 
 
 a {
@@ -30,7 +30,7 @@ ul {
 li {
     display: inline
 }
-
+/* transiciones */
 .fa:hover {
     opacity: 0.7;
 }
@@ -39,7 +39,7 @@ li a:hover {
     background-color: #111;
     color: white;
 }
-
+/* fin transiciones */
 
 /* navegador */
 .container {
@@ -76,7 +76,7 @@ p {
 h2 {
     font-size: 25%;
 }
-
+/* inicio sobre nosotros */
 .card-title {
     font-size: 70%;
     font-weight: 700;
@@ -94,7 +94,8 @@ h2 {
     justify-content:center;
     margin-left: 20px;
 }
-
+/* fin sobre nosotros */
+/* inicio pasantias */
 fieldset {
     color: black;
     background-color: wheat;
@@ -117,10 +118,14 @@ form {
     position: center;
     align-items: center;
 }
+/* fin pasantias */
+/* inicio pie de pagina sitio */
 footer{
     text-align: center;
     word-spacing: 30px;
+    background-image: black;
 }
+/* fin pie de pagina sitio */
 .input{
     width: 50%;
 }
