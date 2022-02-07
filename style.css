@@ -131,7 +131,14 @@ form {
     align-items: center;
 }
 
+
 /* fin pasantias */
+/* jurisprudencia */
+iframe{
+    width:490px;
+    height:450px;
+}
+/* jurisprudencia */
 /* inicio pie de pagina sitio */
 footer {
     text-align: center;
