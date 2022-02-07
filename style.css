@@ -1,9 +1,9 @@
 nav {
     background-image: linear-gradient(black, white);
     color: white;
-    word-spacing: 15px;   
+    word-spacing: 15px;
     text-align: bottom;
-    }
+   }
 
 
 a {
@@ -30,16 +30,19 @@ ul {
 li {
     display: inline
 }
+
 /* transiciones */
 .fa:hover {
     opacity: 0.7;
-    color:grey;
+    color: grey;
 }
 
 li a:hover {
-    background-color: #111;
     color: white;
+    font-weight: 600;
+
 }
+
 /* fin transiciones */
 
 /* navegador */
@@ -49,13 +52,14 @@ li a:hover {
     color: white;
     font-size: 3rem;
     font-weight: 800;
-}
+ }
 
 /* Centered text */
 .texto {
     position: absolute;
     top: 15%;
-    right: 5%;
+    right: 10%;
+    left: 25%;
 
 }
 
@@ -72,11 +76,17 @@ li a:hover {
 p {
     color: black;
     font-size: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    pointer-events: none;
 }
 
 h2 {
     font-size: 25%;
+    margin-top: 5%;
+    pointer-events: none;
 }
+
 /* inicio sobre nosotros */
 .card-title {
     font-size: 70%;
@@ -92,9 +102,10 @@ h2 {
 .text {
     color: black;
     font-size: 2rem;
-    justify-content:center;
+    justify-content: left;
     margin-left: 20px;
 }
+
 /* fin sobre nosotros */
 /* inicio pasantias */
 fieldset {
@@ -119,14 +130,20 @@ form {
     position: center;
     align-items: center;
 }
+
 /* fin pasantias */
 /* inicio pie de pagina sitio */
-footer{
+footer {
     text-align: center;
     word-spacing: 30px;
     background-image: black;
 }
+
 /* fin pie de pagina sitio */
-.input{
+.input {
     width: 50%;
+}
+
+main{
+    margin-top: 5%;
 }
