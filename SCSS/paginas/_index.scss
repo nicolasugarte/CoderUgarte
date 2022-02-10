@@ -1,0 +1,22 @@
+.container {
+    position: relative;
+    text-align: right;
+    color: $colorSecundario;
+    font-size: 3rem;
+    font-weight: 800;
+ }
+
+/* Centered text */
+.texto {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    left: 25%;
+
+}
+
+.awards {
+    position: inherit;
+    size: 100%;
+}
+/* pagina de inicio, imagen y texto adentro */
