@@ -1,0 +1,84 @@
+nav {
+    background-image: linear-gradient($colorPrincipal, $colorSecundario);    
+    color: $colorSecundario;
+    word-spacing: 15px;
+    text-align: bottom;
+   }
+   .navbar-brand{
+       height: 200;
+
+   }
+   .logo{
+    height: 200;
+    width: 200;
+
+   }
+
+
+a {
+    text-decoration: none;
+    color: $colorSecundario;
+    height: 1.25rem;
+    font-family: $fsecundaria;
+    font-size: 1.5625rem;
+}
+
+/*color y fondo del nav*/
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline
+}
+
+/* transiciones */
+.fa:hover {
+    opacity: 0.7;
+    color: grey;
+}
+
+li a:hover {
+    color: $colorSecundario;
+    font-weight: 600;
+
+}
+
+/* fin transiciones */
+
+/* navegador */
+body {
+    color: #2c2b2c;
+    background-color: $colorSecundario;
+    font-family: 'Tangerine', cursive;
+    font-size: 3rem;
+
+}
+/* pagina de inicio, imagen y texto adentro */
+.container-fluid {
+    background-color: $colorPrincipal;
+}
+
+p {
+    color: $colorPrincipal;
+    font-size: 2rem;
+    padding-left: 5%;
+    margin-right: 20%;
+    pointer-events: none;
+}
+
+h2 {
+    font-size: 25%;
+    margin-top: 5%;
+    pointer-events: none;
+    padding-left: 5%;
+    text-decoration: underline;
+}
+/* inicio pie de pagina sitio */
+footer {
+    text-align: center;
+    word-spacing: 50px;
+    background-image: $colorPrincipal;
+}
+
+/* fin pie de pagina sitio */
