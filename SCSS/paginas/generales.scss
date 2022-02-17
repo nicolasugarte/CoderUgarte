@@ -1,8 +1,5 @@
 nav {
-    background-image: linear-gradient($colorPrincipal, $colorSecundario);    
-    color: $colorSecundario;
-    word-spacing: 15px;
-    text-align: bottom;
+@extend %navegador
    }
    .navbar-brand{
        height: 200;
@@ -13,6 +10,7 @@ nav {
     width: 200;
 
    }
+   
 
 
 a {
@@ -58,6 +56,7 @@ body {
 .container-fluid {
     background-color: $colorPrincipal;
 }
+
 
 p {
     color: $colorPrincipal;

@@ -1,0 +1,12 @@
+Para mejorar el SEO
+
+Agregue Keywords generales para todas las paginas pero tambien particulares en base al tema de cada pagina. Por ejemplo: 
+"Ugarte e hijos, derecho, estudio juridico, juicio, ugarte, estudio buenos aires, abogados caba, nicolas ugarte" esta presente en todas las paginas pero
+contacto.html: agregue "contacto, telefono, direccion"
+Jurisprudencia.html: agregue "Jurisprudencia"
+En pasantias.html: agregue "pasantias, practicas, trabajo, contrato"
+y asi con todas las paginas.
+
+Tambien hice una descripcion diferente en cada pagina, superando los 90 caracteres. 
+Cambie los titulos, para que cada html tuviera el titulo correspondiente
+Aproveche para agregar el favicon y darle un mejor look al sitio. 

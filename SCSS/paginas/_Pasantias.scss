@@ -1,4 +1,5 @@
 /* inicio pasantias */
+
 fieldset {
     color: $colorPrincipal;
     background-color: wheat;
@@ -21,6 +22,9 @@ form {
     position: center;
     align-items: center;
 }
-
+/* seo y sass, no va */
+  /* hasta aca no va, desafio. */
+footer {
+    @include foot }
 
 /* fin pasantias */

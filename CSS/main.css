@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
+/* desafio seo y sass, no va */
+/* generales */
 nav {
   background-image: linear-gradient(black, white);
   color: white;
   word-spacing: 15px;
   text-align: bottom; }
 
+/* generales */
+/* pasantias */
+/* pasantias */
 .navbar-brand {
   height: 200; }
 
@@ -130,6 +135,13 @@ form {
   position: center;
   align-items: center; }
 
+/* seo y sass, no va */
+/* hasta aca no va, desafio. */
+footer {
+  text-align: center;
+  word-spacing: 50px;
+  background-image: black; }
+
 /* fin pasantias */
 .card-title {
   font-size: 70px;
@@ -137,12 +149,12 @@ form {
   font-family: "Georgia, 'Times New Roman', Times, serif"; }
 
 .card-text {
-  font-size: 35px;
+  font-size: 33px;
   font-family: "Georgia, 'Times New Roman', Times, serif";
   text-align: center; }
 
 iframe {
-  size: 80%; }
+  size: 70%; }
 
 /* jurisprudencia */
 iframe {
