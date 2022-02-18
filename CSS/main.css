@@ -59,7 +59,8 @@ p {
   margin-right: 20%;
   pointer-events: none; }
 
-h2 {
+h1 {
+  font-size: larger;
   margin-top: 5%;
   pointer-events: none;
   padding-left: 5%;
