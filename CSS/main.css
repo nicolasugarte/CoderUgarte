@@ -157,8 +157,8 @@ footer {
   font-family: "Georgia, 'Times New Roman', Times, serif";
   text-align: center; }
 
-iframe {
-  height: 100%; }
+.mapa {
+  size: 100%; }
 
 /* jurisprudencia */
 iframe {
