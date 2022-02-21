@@ -116,6 +116,7 @@ main {
 /* fin sobre nosotros */
 .table {
   margin-left: 5%;
+  margin-right: 20%;
   width: 80%;
   background-color: gray;
   font-family: "Georgia, 'Times New Roman', Times, serif"; }
@@ -151,7 +152,8 @@ footer {
 
 /* fin pasantias */
 .row {
-  margin-left: 5%; }
+  margin-left: 5%;
+  margin-right: 5%; }
 
 .card-title {
   font-size: 70px;
