@@ -1,5 +1,5 @@
-.row{
-  padding-left: 5%;
+ .row{
+  margin-left: 5%;
 }
 .card-title{
   font-size: 70px;
@@ -7,11 +7,14 @@
   font-family: $fsecundaria;
 }
 .card-text{
-  font-size: 19px;
+   margin-top: 10%;
+  font-size: 27px;
   font-family: $fsecundaria;
   text-align: center;
   
 }
-.mapa{
-  size: 100%;
+.mapa {
+  width: 95%;
+  height: 400px;
+  margin-left: 0;
 }

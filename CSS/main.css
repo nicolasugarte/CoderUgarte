@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
 /* desafio seo y sass, no va */
-/* generales */
 nav {
   background-image: linear-gradient(black, white);
   color: white;
@@ -92,7 +91,6 @@ footer {
   position: inherit;
   size: 100%; }
 
-/* pagina de inicio, imagen y texto adentro */
 /* inicio sobre nosotros */
 .card-title1 {
   font-size: 70%;
@@ -116,21 +114,29 @@ main {
   margin-top: 5%; }
 
 /* fin sobre nosotros */
+.table {
+  margin-left: 5%;
+  width: 80%;
+  background-color: gray;
+  font-family: "Georgia, 'Times New Roman', Times, serif"; }
+
 /* inicio pasantias */
 fieldset {
   color: black;
-  background-color: wheat;
+  background-color: gray;
   size: auto;
   border: black;
   margin-left: 20px;
   size: 50%; }
 
 form {
+  margin-left: 5%;
+  margin-right: 20%;
   font-family: "Georgia, 'Times New Roman', Times, serif";
   font-size: 30px;
   border: black;
   border-width: 3px;
-  background-color: wheat;
+  background-color: gray;
   padding: 2px;
   border-style: solid;
   position: center;
@@ -145,7 +151,7 @@ footer {
 
 /* fin pasantias */
 .row {
-  padding-left: 5%; }
+  margin-left: 5%; }
 
 .card-title {
   font-size: 70px;
@@ -153,12 +159,15 @@ footer {
   font-family: "Georgia, 'Times New Roman', Times, serif"; }
 
 .card-text {
-  font-size: 19px;
+  margin-top: 10%;
+  font-size: 27px;
   font-family: "Georgia, 'Times New Roman', Times, serif";
   text-align: center; }
 
 .mapa {
-  size: 100%; }
+  width: 95%;
+  height: 400px;
+  margin-left: 0; }
 
 /* jurisprudencia */
 iframe {

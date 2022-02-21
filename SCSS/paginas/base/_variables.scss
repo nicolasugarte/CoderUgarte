@@ -4,9 +4,6 @@ $fsecundaria:"Georgia, 'Times New Roman', Times, serif";
 $colorPrincipal: black;
 $colorSecundario: white;
 /* desafio seo y sass, no va */
-$map: (background-color: white,
-    hover-primario: lighten (gray, 30));
-/* generales */
 %navegador {
     background-image: linear-gradient(black, white);
     color: white;

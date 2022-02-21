@@ -1,8 +1,7 @@
 /* inicio pasantias */
-
 fieldset {
     color: $colorPrincipal;
-    background-color: wheat;
+    background-color: gray;
     size: auto;
     border: $colorPrincipal;
     margin-left: 20px;
@@ -11,12 +10,13 @@ fieldset {
 }
 
 form {
-
+    margin-left: 5%;
+    margin-right: 20%;
     font-family: $fsecundaria;
     font-size: 30px;
     border: $colorPrincipal;
     border-width: 3px;
-    background-color: wheat;
+    background-color: gray;
     padding: 2px;
     border-style: solid;
     position: center;
