@@ -1,30 +1,36 @@
 /* inicio pasantias */
 fieldset {
     color: $colorPrincipal;
-    background-color: gray;
-    size: auto;
+    background-color: $colorSecundario;
     border: $colorPrincipal;
-    margin-left: 20px;
-    size: 50%;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 form {
     margin-left: 5%;
-    margin-right: 20%;
-    font-family: $fsecundaria;
-    font-size: 30px;
+    margin-right: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
     border: $colorPrincipal;
-    border-width: 3px;
+    border-width: 30 px;
     background-color: gray;
     padding: 2px;
     border-style: solid;
     position: center;
     align-items: center;
+    size: 20%;
 }
-/* seo y sass, no va */
-  /* hasta aca no va, desafio. */
+
+.input {
+    size: 20%;
+}
+
+.mb3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 footer {
-    @include foot }
+    @include foot
+}
 
 /* fin pasantias */

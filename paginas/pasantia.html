@@ -82,66 +82,27 @@
         experiencia en practica y te va a ayudar mucho en tu desarrollo profesional.
 
     </p>
-    <form>
-
-        <fieldset class="fs-2">
-            <div><label for="nombre">Nombre y Apellido:</label>
-                <input type="text" id="nombre">
-
+    <fieldset>
+        <form>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
-
-            <div><label for="nacimiento">Fecha de Nacimiento:</label>
-                <input type="date" id="nacimiento">
-
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Contanos sobre vos y por que queres trabajar
+                    con nosotros</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-
-            <div><label for="@">Email:</label>
-                <input type="email" id="@"> </div>
-
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Adjunta tu CV</label>
+                <input class="form-control" type="file" id="formFile">
             </div>
+            <div class="mb-3">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+              </div>
+        </form>
+    </fieldset>
 
-
-            <div><label for=" tel">Telefono:</label>
-                <input type="tel" id="tel">
-
-            </div>
-
-
-            <div> Situación:</div>
-
-            <div>
-                <input type="radio" id="eavanzado" name="situacion" value="eavanzado">
-                <label for="eavanzado">Estudiante avanzado</label>
-            </div>
-
-            <div>
-                <label for="materias">materias aprobadas:</label>
-                <input type="number" id="materias" name="materias" min="1" max="45">
-
-            </div>
-
-            <div>
-                <input type="radio" id="abogado" name="situacion" value="abogado">
-                <label for="abogado">Abogado</label>
-
-
-                <div><label for="facu">Universidad:</label>
-                    <input type="text" id="facu">
-
-                </div>
-                <div>
-
-                </div>
-
-                <div>
-                    <input type="reset" value="Borrar">
-                    <input type="submit" value="Enviar">
-                </div>
-
-
-        </fieldset>
-    </form>
-    
     <!-- footer -->
     <footer class="container-fluid">
         <ul>
@@ -166,6 +127,7 @@
 
 
 </body>
+
 
 
 </html>
